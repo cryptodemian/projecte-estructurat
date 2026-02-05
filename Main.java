@@ -7,6 +7,11 @@ public class Main {
             }
         }
         System.out.println("La suma dels nombres primers de l'1 al 100 és: " + suma);
+        int producte = 1;
+		for (int i = 1; i <= 5; i++) {
+			producte *= i;
+		}
+		System.out.println("El producte dels nombres de l'1 al 5 és: " + producte);
     }
 
     private static boolean esPrimer(int n) {
